@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://djangotutorials.ir"
 
 languageCode = "fa"
 DefaultContentLanguage = "en"
@@ -19,7 +19,7 @@ enableMissingTranslationPlaceholders = false
 
     # Souce Code repository section
     description = "ترجمه‌ای آزاد همراه با کمی توضیحات بیشتر از سایت رسمی پروژه جنگو"
-    github_repository = "https://github.com/waalden/DjangoTutorials"
+    github_repository = "https://github.com/itsaminzamani/django-tutorials"
     version = "2.2"
 
     # Documentation repository section
@@ -47,5 +47,5 @@ enableMissingTranslationPlaceholders = false
 
 [[menu.main]]
     name = "توئیتر"
-    url = "https://twitter.com/waaldev"
+    url = "https://twitter.com/itsaminzamani"
     weight = 2
