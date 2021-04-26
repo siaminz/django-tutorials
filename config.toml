@@ -1,0 +1,51 @@
+baseURL = "https://example.com"
+
+languageCode = "fa"
+DefaultContentLanguage = "en"
+title = "راهنمای شروع کار با جنگو"
+theme = "hugo-theme-techdoc"
+
+hasCJKLanguage = true
+metaDataFormat = "yaml"
+
+pygmentsUseClasses = true
+pygmentsCodefences = true
+
+defaultContentLanguage = "fa"
+defaultContentLanguageInSubdir= false
+enableMissingTranslationPlaceholders = false
+
+[Params]
+
+    # Souce Code repository section
+    description = "ترجمه‌ای آزاد همراه با کمی توضیحات بیشتر از سایت رسمی پروژه جنگو"
+    github_repository = "https://github.com/waalden/DjangoTutorials"
+    version = "2.2"
+
+    # Documentation repository section
+    # documentation repository (set edit link to documentation repository)
+    #github_doc_repository = "https://github.com/waalden/DjangoTutorials"
+
+    # Analytic section
+    google_analytics_id = "" # Your Google Analytics tracking id
+    tag_manager_container_id = "" # Your Google Tag Manager container id
+    google_site_verification = "" # Your Google Site Verification for Search Console
+
+    # Theme settings section
+    dateformat = "" # default "2 Jan 2006"
+    # See the format reference https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
+
+    # path name excluded from documentation menu
+    menu_exclusion = ["archives", "blog", "entry", "post", "posts", "content", "content/posts"]
+
+
+# Global menu section
+[[menu.main]]
+    name = "مقدمه"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "توئیتر"
+    url = "https://twitter.com/waaldev"
+    weight = 2
