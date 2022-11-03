@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>جنگو در یک نگاه - جنگو</title>
+<meta name="description" content="ترجمه‌ای آزاد از اسناد پروژه جنگو">
+<meta name="generator" content="Hugo 0.104.3" />
+<link href="https://djangotutorials.ir/index.xml" rel="alternate" type="application/rss+xml">
+<link rel="canonical" href="https://djangotutorials.ir/getting-started/overview/">
+<link rel="stylesheet" href="https://djangotutorials.ir/css/theme.min.css">
+<link rel="stylesheet" href="https://djangotutorials.ir/css/chroma.min.css">
+<script defer src="https://djangotutorials.ir/js/fontawesome6/all.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js" integrity="sha256-H3cjtrm/ztDeuhCN9I4yh4iN2Ybx/y1RM7rMmAesA0k=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js" integrity="sha256-4XodgW4TwIJuDtf+v6vDJ39FVxI0veC/kSCCmnFp7ck=" crossorigin="anonymous"></script>
+<script src="https://djangotutorials.ir/js/bundle.js"></script><style>
+:root {--custom-background-color: #0C4B33;}
+</style>
+<meta property="og:title" content="جنگو در یک نگاه" />
+<meta property="og:description" content="جنگو با فلسفه توسعه سریع و راحت، ایجاد شده. در این بخش شما خیلی سریع از نظر تکنیکی می‌فهمید که جنگو چطور کار می‌کنه. این بخش برای آموزش طراحی نشده. اگر چیزی ازش نمی‌فهمید یا به نظرتون خیلی گیج‌کننده و درهم برهم میاد، نگران نباشید، ما یک آموزش جالب و جذاب هم داریم. هر وقت آماده بودید تا یک پروژه واقعی جنگو رو شروع کنید، می‌تونید از شروع آموزش دیدن کنید!" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://djangotutorials.ir/getting-started/overview/" /><meta property="og:image" content="https://djangotutorials.ir/images/og-image.png"/><meta property="article:section" content="getting-started" />
+<meta property="article:published_time" content="2018-10-17T15:26:15+00:00" />
+<meta property="article:modified_time" content="2018-10-26T15:26:15+00:00" /><meta property="og:site_name" content="Hugo Techdoc Theme" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://djangotutorials.ir/images/og-image.png"/>
+
+<meta name="twitter:title" content="جنگو در یک نگاه"/>
+<meta name="twitter:description" content="جنگو با فلسفه توسعه سریع و راحت، ایجاد شده. در این بخش شما خیلی سریع از نظر تکنیکی می‌فهمید که جنگو چطور کار می‌کنه. این بخش برای آموزش طراحی نشده. اگر چیزی ازش نمی‌فهمید یا به نظرتون خیلی گیج‌کننده و درهم برهم میاد، نگران نباشید، ما یک آموزش جالب و جذاب هم داریم. هر وقت آماده بودید تا یک پروژه واقعی جنگو رو شروع کنید، می‌تونید از شروع آموزش دیدن کنید!"/>
+<meta itemprop="name" content="جنگو در یک نگاه">
+<meta itemprop="description" content="جنگو با فلسفه توسعه سریع و راحت، ایجاد شده. در این بخش شما خیلی سریع از نظر تکنیکی می‌فهمید که جنگو چطور کار می‌کنه. این بخش برای آموزش طراحی نشده. اگر چیزی ازش نمی‌فهمید یا به نظرتون خیلی گیج‌کننده و درهم برهم میاد، نگران نباشید، ما یک آموزش جالب و جذاب هم داریم. هر وقت آماده بودید تا یک پروژه واقعی جنگو رو شروع کنید، می‌تونید از شروع آموزش دیدن کنید!"><meta itemprop="datePublished" content="2018-10-17T15:26:15+00:00" />
+<meta itemprop="dateModified" content="2018-10-26T15:26:15+00:00" />
+<meta itemprop="wordCount" content="743"><meta itemprop="image" content="https://djangotutorials.ir/images/og-image.png"/>
+<meta itemprop="keywords" content="" /></head>
+<body><div class="container"><header>
+<h1>جنگو</h1><span class="version">ورژن 2.2</span><a href="https://github.com/ItsAminZamani/django-tutorials" class="github"><i class="fab fa-github"></i></a>
+<p class="description">ترجمه‌ای آزاد از اسناد پروژه جنگو</p>
+
+</header>
+<div class="global-menu">
+<nav>
+<ul>
+<li id="home" class=""><a href="/">خانه</a></li>
+<li id="twitter" class="twitter-menu-item"><a href="https://twitter.com/ItsAminZamani">توئیتر</a></li></ul>
+</nav>
+</div>
+
+<div class="content-container">
+<main><h1>جنگو در یک نگاه</h1>
+<p>جنگو با فلسفه توسعه سریع و راحت، ایجاد شده. در این بخش شما خیلی سریع از نظر تکنیکی می‌فهمید که جنگو چطور کار می‌کنه. این بخش برای آموزش طراحی نشده. اگر چیزی ازش نمی‌فهمید یا به نظرتون خیلی گیج‌کننده و درهم برهم میاد، نگران نباشید، ما یک آموزش جالب و جذاب هم داریم. هر وقت آماده بودید تا یک پروژه واقعی جنگو رو شروع کنید، می‌تونید از <a href="/tutorial01">شروع آموزش</a> دیدن کنید!</p>
+<h2 id="مدلتون-رو-طراحی-کنید">مدل‌تون رو طراحی کنید</h2>
+<p>گرچه شما می‌تونید از جنگو، بدون دیتابیس هم استفاده کنید، اما جنگو با یک ORM یا <a href="https://en.wikipedia.org/wiki/Object-relational_mapping">object-relational mapper</a> که یک روش مدرن در مدیریت اطلاعات هست همراه شده. به این صورت که شما می‌تونید مدل پایه دیتابیس‌تون رو با استفاده از کدهای پایتون پیاده‌سازی کنید.</p>
+<p>سینتکس منحصر به فرد مدل‌های جنگو یک عالم راه‌های خوب برای شبیه‌سازی و پیاده کردن مدل‌های مدیریت اطلاعات‌تون ارائه می‌ده. خب این باعث شده که یک‌سری از مشکلات چندین ساله دیتابیس حل بشه.
+یک مثال سریع ببینید:</p>
+<p style="direction:ltr; text-align: left; color:#0C4B33; background:#C9F0DD">
+<code style="background:#C9F0DD">
+   mysite/news/models.py:
+</code></p>
+<pre style="background:none; margin:0; padding: 0;">
+from django.db import models
+class Reporter(models.Model):
+	full_name = models.CharField(max_length=70)
+	def __str__(self):
+		return self.full_name
+class Article(models.Model):
+	pub_date = models.DateField()
+	headline = models.CharField(max_length=200)
+	content = models.TextField()
+	reporter = models.ForeignKey(Reporter, on_delete=models.CASCADE)
+	def __str__(self):
+	    return self.headline
+</pre>
+<hr>
+<h2 id="نصبش-کنید">نصب‌ش کنید</h2>
+<p>بعد از این‌که مدل‌تون پیاده‌سازی شد، این دستورات رو در ترمینال وارد کنید.</p>
+<pre tabindex="0"><code>$ python manage.py makemigrations
+$ python manage.py migrate
+</code></pre><p>دستور <a href="https://docs.djangoproject.com/en/2.2/ref/django-admin/#django-admin-makemigrations">makemigrations</a> همه‌ی مدل‌هایی که پیاده‌سازی کردید رو نگاه می‌کنه و یک migrations از اون‌ها برای جداولی که از قبل وجود نداشتن می‌سازه. پس از اون دستور <a href="https://docs.djangoproject.com/en/2.2/ref/django-admin/#django-admin-migrate">migrate</a> می‌آد و migrationsهای ساخته شده رو اجرا می‌کنه و جداول مورد نیاز در دیتابیس شما ساخته می‌شه.</p>
+<hr>
+<h2 id="از-apiهای-آزاد-استفاده-و-کیف-کنید">از APIهای آزاد استفاده و کِیف کنید!</h2>
+<p>شما با استفاده از <a href="https://docs.djangoproject.com/en/2.2/topics/db/queries/">Python API</a> که آزاد و خیلی هم خفن هست به دیتاهاتون دسترسی دارید. این APIها در آسمان‌ها ساخته شدن؛ یعنی نیاز به تولید هیچ کدی نیست:</p>
+<pre tabindex="0"><code># Import the models we created from our &#34;news&#34; app
+&gt;&gt;&gt; from news.models import Article, Reporter
+# No reporters are in the system yet.
+&gt;&gt;&gt; Reporter.objects.all()
+&lt;QuerySet []&gt;
+# Create a new Reporter.
+&gt;&gt;&gt; r = Reporter(full_name=&#39;John Smith&#39;)
+# Save the object into the database. You have to call save() explicitly.
+&gt;&gt;&gt; r.save()
+# Now it has an ID.
+&gt;&gt;&gt; r.id
+1
+# Now the new reporter is in the database.
+&gt;&gt;&gt; Reporter.objects.all()
+&lt;QuerySet [&lt;Reporter: John Smith&gt;]&gt;
+# Fields are represented as attributes on the Python object.
+&gt;&gt;&gt; r.full_name
+&#39;John Smith&#39;
+# Django provides a rich database lookup API.
+&gt;&gt;&gt; Reporter.objects.get(id=1)
+&lt;Reporter: John Smith&gt;
+&gt;&gt;&gt; Reporter.objects.get(full_name__startswith=&#39;John&#39;)
+&lt;Reporter: John Smith&gt;
+&gt;&gt;&gt; Reporter.objects.get(full_name__contains=&#39;mith&#39;)
+&lt;Reporter: John Smith&gt;
+&gt;&gt;&gt; Reporter.objects.get(id=2)
+Traceback (most recent call last):
+    ...
+DoesNotExist: Reporter matching query does not exist.
+# Create an article.
+&gt;&gt;&gt; from datetime import date
+&gt;&gt;&gt; a = Article(pub_date=date.today(), headline=&#39;Django is cool&#39;,
+...     content=&#39;Yeah.&#39;, reporter=r)
+&gt;&gt;&gt; a.save()
+# Now the article is in the database.
+&gt;&gt;&gt; Article.objects.all()
+&lt;QuerySet [&lt;Article: Django is cool&gt;]&gt;
+# Article objects get API access to related Reporter objects.
+&gt;&gt;&gt; r = a.reporter
+&gt;&gt;&gt; r.full_name
+&#39;John Smith&#39;
+# And vice versa: Reporter objects get API access to Article objects.
+&gt;&gt;&gt; r.article_set.all()
+&lt;QuerySet [&lt;Article: Django is cool&gt;]&gt;
+# The API follows relationships as far as you need, performing efficient
+# JOINs for you behind the scenes.
+# This finds all articles by a reporter whose name starts with &#34;John&#34;.
+&gt;&gt;&gt; Article.objects.filter(reporter__full_name__startswith=&#39;John&#39;)
+&lt;QuerySet [&lt;Article: Django is cool&gt;]&gt;
+# Change an object by altering its attributes and calling save().
+&gt;&gt;&gt; r.full_name = &#39;Billy Goat&#39;
+&gt;&gt;&gt; r.save()
+# Delete an object with delete().
+&gt;&gt;&gt; r.delete()
+</code></pre><hr>
+<h2 id="یک-رابط-مدیریت-پویا-این-یک-اسکلت-خالی-نیست-کل-ساختمونه">یک رابط مدیریت پویا: این یک اسکلت خالی نیست، کل ساختمونه!</h2>
+<p>وقتی که مدل شما پیاده‌سازی شد، جنگو می‌تونه به صورت اتوماتیک یک رابط مدیریتی حرفه‌ای، قابل استفاده و خوانا بسازه. در وبسایت، کاربران می‌تونن اشیا جدید بسازند، اون‌ها رو ویرایش کنند یا حذف‌شون کنند. این کار به سادگی با ثبت کردن مدل‌تون در بخش ادمین امکان پذیره:</p>
+<p style="direction:ltr; text-align: left; color:#0C4B33; background:#C9F0DD">
+<code style="background:#C9F0DD">
+   mysite/news/models.py:
+</code></p>
+<pre style="background:none; margin:0; padding: 0;">
+from django.db import models
+class Article(models.Model):
+    pub_date = models.DateField()
+    headline = models.CharField(max_length=200)
+    content = models.TextField()
+    reporter = models.ForeignKey(Reporter, on_delete=models.CASCADE)
+</pre>
+<p style="direction:ltr; text-align: left; color:#0C4B33; background:#C9F0DD">
+<code style="background:#C9F0DD">
+  mysite/news/admin.py:
+</code></p>
+<pre style="background:none; margin:0; padding: 0;">
+from django.contrib import admin
+from . import models
+admin.site.register(models.Article)
+</pre>
+<p>فلسفه کار اینه که سایت شما توسط همکاران شما، کاربران شما یا فقط خودتون ویرایش می‌شه - همچنین شما نمی‌خواید که با مشکلات زیاد ایجاد یک رابط پشتی برای مدیریت محتوا سایت‌تون دست و پنجه نرم کنید.</p>
+<p>یک روش کار معمول در ساخت پروژه‌های جنگو اینه‌که شما مدل‌هاتون رو می‌سازید و بخش ادمین سایت‌تون رو هرچه زودتر راه‌اندازی می‌کنید؛ حالا همکاران یا کاربران شما می‌تونن دیتاهایی رو در سایت وارد کنند. بعد از اون یک راهی رو طراحی می‌کنید که اون اطلاعات به صورت عمومی منتشر و استفاده بشه.</p>
+<hr>
+<h2 id="آدرسهاتون-رو-طراحی-کنید">آدرس‌هاتون رو طراحی کنید</h2>
+<div class="edit-meta">
+آخرین بروزرسانی 26 Oct 2018
+
+
+<br>
+
+<br><a href="https://github.com/ItsAminZamani/django-tutorials/edit/master/getting-started/overview.md" class="edit-page"><i class="fas fa-pen-square"></i>&nbsp;ویرایش این صفحه در گیت‌هاب</a></div><nav class="pagination"><a class="nav nav-prev" href="https://djangotutorials.ir/getting-started/" title="شروع به کار">&nbsp; قبلی - شروع به کار <i class="fas fa-arrow-right" aria-hidden="true"></i> </a>
+
+</nav><footer><p class="powered">قدرت گرفته از <a href="https://gohugo.io">Hugo</a>. با قالب <a href="https://themes.gohugo.io/hugo-theme-techdoc/">TechDoc</a>. دیزاین شده توسط <a href="https://github.com/thingsym/hugo-theme-techdoc">Thingsym</a>.</p>
+</footer>
+</main>
+<div class="sidebar">
+
+<nav class="open-menu">
+<ul>
+<li class=""><a href="https://djangotutorials.ir">مقدمه</a></li>
+
+<li class="parent"><a href="https://djangotutorials.ir/getting-started/">شروع به کار</a>
+  
+<ul class="sub-menu">
+<li class="active"><a href="https://djangotutorials.ir/getting-started/overview/">جنگو در یک نگاه</a></li>
+</ul>
+  
+</li>
+</ul>
+</nav>
+
+
+
+<div class="sidebar-footer"></div>
+</div>
+
+</div><a href="#" id="backtothetop-fixed" class="backtothetop"
+ data-backtothetop-duration="600"
+ data-backtothetop-easing="easeOutQuart"
+ data-backtothetop-fixed-fadeIn="1000"
+ data-backtothetop-fixed-fadeOut="1000"
+ data-backtothetop-fixed-bottom="10"
+ data-backtothetop-fixed-right="20">
+<span class="fa-layers fa-fw">
+<i class="fas fa-circle"></i>
+<i class="fas fa-arrow-circle-up"></i>
+</span></a>
+</div>
+</body>
+</html>

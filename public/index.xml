@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>مقدمه on جنگو</title>
+    <link>https://djangotutorials.ir/</link>
+    <description>Recent content in مقدمه on جنگو</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fa</language>
+    <lastBuildDate>Fri, 03 Aug 2018 15:26:15 +0000</lastBuildDate><atom:link href="https://djangotutorials.ir/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>جنگو در یک نگاه</title>
+      <link>https://djangotutorials.ir/getting-started/overview/</link>
+      <pubDate>Wed, 17 Oct 2018 15:26:15 +0000</pubDate>
+      
+      <guid>https://djangotutorials.ir/getting-started/overview/</guid>
+      <description>جنگو با فلسفه توسعه سریع و راحت، ایجاد شده. در این بخش شما خیلی سریع از نظر تکنیکی می‌فهمید که جنگو چطور کار می‌کنه. این بخش برای آموزش طراحی نشده. اگر چیزی ازش نمی‌فهمید یا به نظرتون خیلی گیج‌کننده و درهم برهم میاد، نگران نباشید، ما یک آموزش جالب و جذاب هم داریم. هر وقت آماده بودید تا یک پروژه واقعی جنگو رو شروع کنید، می‌تونید از شروع آموزش دیدن کنید!</description>
+    </item>
+    
+  </channel>
+</rss>

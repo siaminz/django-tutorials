@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>شروع به کار - جنگو</title>
+<meta name="description" content="شروع به کار با جنگ">
+<meta name="generator" content="Hugo 0.104.3" />
+<link href="https://djangotutorials.ir/index.xml" rel="alternate" type="application/rss+xml">
+<link rel="canonical" href="https://djangotutorials.ir/getting-started/">
+<link rel="stylesheet" href="https://djangotutorials.ir/css/theme.min.css">
+<link rel="stylesheet" href="https://djangotutorials.ir/css/chroma.min.css">
+<script defer src="https://djangotutorials.ir/js/fontawesome6/all.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js" integrity="sha256-H3cjtrm/ztDeuhCN9I4yh4iN2Ybx/y1RM7rMmAesA0k=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js" integrity="sha256-4XodgW4TwIJuDtf+v6vDJ39FVxI0veC/kSCCmnFp7ck=" crossorigin="anonymous"></script>
+<script src="https://djangotutorials.ir/js/bundle.js"></script><style>
+:root {--custom-background-color: #0C4B33;}
+</style>
+<meta property="og:title" content="شروع به کار" />
+<meta property="og:description" content="شروع به کار با جنگ" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://djangotutorials.ir/getting-started/" /><meta property="og:image" content="https://djangotutorials.ir/images/og-image.png"/><meta property="og:site_name" content="Hugo Techdoc Theme" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://djangotutorials.ir/images/og-image.png"/>
+
+<meta name="twitter:title" content="شروع به کار"/>
+<meta name="twitter:description" content="شروع به کار با جنگ"/>
+<meta itemprop="name" content="شروع به کار">
+<meta itemprop="description" content="شروع به کار با جنگ"></head>
+<body><div class="container"><header>
+<h1>جنگو</h1><span class="version">ورژن 2.2</span><a href="https://github.com/ItsAminZamani/django-tutorials" class="github"><i class="fab fa-github"></i></a>
+<p class="description">ترجمه‌ای آزاد از اسناد پروژه جنگو</p>
+
+</header>
+<div class="global-menu">
+<nav>
+<ul>
+<li id="home" class=""><a href="/">خانه</a></li>
+<li id="twitter" class="twitter-menu-item"><a href="https://twitter.com/ItsAminZamani">توئیتر</a></li></ul>
+</nav>
+</div>
+
+<div class="content-container">
+<main><h1>شروع به کار</h1><p>در جنگو تازه‌کارید؟ یا یک توسعه‌دهنده وب هستید که تازه دارید متوجه می‌شید که تکنولوژی‌های هیجان‌انگیزی برای یادگیری وجود داره؟ به هرحال، جای درستی اومدید: بخش‌های زیر کمک می‌کنن که خیلی سریع، بفهمید چه خبره و چطور باید با جنگو تا کنید!</p>
+<h2 id="جنگو-در-یک-نگاهoverview"><a href="./overview">جنگو در یک نگاه</a></h2>
+<p>خیلی سریع و خلاصه توضیح می‌دیم که جنگو چطور کار می‌کنه و چطور باید باهاش کار کرد. جنگو توسعه داده شده تا کارها رو در زمان نسبتا سریعی جلو ببره. در این قسمت قبل از این‌که چایی‌تون سرد بشه، یاد می‌گیرید که کلیت جنگو چیه. ولی یادتون باشه که آموزش واقعی، بعد از نوشیدن چایی شروع می‌شه. :)</p>
+<h2 id="نصب-جنگوinstall"><a href="./install">نصب جنگو</a></h2>
+<p>اول باید جنگو رو روی سیستم‌تون نصب کنید. نگران نباشید، خیلی ساده‌ست.</p>
+<blockquote>
+<p>اگر در <a href="https://python.org">پایتون</a> تازه کار هستید، شاید بهتر باشه که قبل از هر چیزی، کمی پایتون یاد بگیرید. جنگو، پایتون خالصه. پس یادگیری و فهم درست پایتون، باعث می‌شه که خیلی بهتر و راحت‌تر یادش بگیرید.</p>
+<p>اگر تازه برنامه‌نویسی رو شروع کردید شاید این لیست از منابع گزینه خوبی باشه <a href="https://wiki.python.org/moin/BeginnersGuide/NonProgrammers">list of Python resources for non-programmers</a>.</p>
+<p>همچنین در منابع فارسی، کتاب <a href="https://behroozam.github.io/persianthinkpython/">تفکر پایتونی</a> گزینه مناسبی هست.</p>
+</blockquote>
+<div class="edit-meta">
+آخرین بروزرسانی 3 Aug 2018
+
+
+<br>
+
+<br><a href="https://github.com/ItsAminZamani/django-tutorials/edit/master/getting-started/_index.md" class="edit-page"><i class="fas fa-pen-square"></i>&nbsp;ویرایش این صفحه در گیت‌هاب</a></div><nav class="pagination"><a class="nav nav-prev" href="https://djangotutorials.ir/" title="مقدمه">&nbsp; قبلی - مقدمه <i class="fas fa-arrow-right" aria-hidden="true"></i> </a>
+<a class="nav nav-next" href="https://djangotutorials.ir/getting-started/overview/" title="جنگو در یک نگاه"><i class="fas fa-arrow-left" aria-hidden="true"></i> بعدی - جنگو در یک نگاه</a>
+</nav><footer><p class="powered">قدرت گرفته از <a href="https://gohugo.io">Hugo</a>. با قالب <a href="https://themes.gohugo.io/hugo-theme-techdoc/">TechDoc</a>. دیزاین شده توسط <a href="https://github.com/thingsym/hugo-theme-techdoc">Thingsym</a>.</p>
+</footer>
+</main>
+<div class="sidebar">
+
+<nav class="open-menu">
+<ul>
+<li class=""><a href="https://djangotutorials.ir">مقدمه</a></li>
+
+<li class=" active"><a href="https://djangotutorials.ir/getting-started/">شروع به کار</a>
+  
+<ul class="sub-menu">
+<li class=""><a href="https://djangotutorials.ir/getting-started/overview/">جنگو در یک نگاه</a></li>
+</ul>
+  
+</li>
+</ul>
+</nav>
+
+
+
+<div class="sidebar-footer"></div>
+</div>
+
+</div><a href="#" id="backtothetop-fixed" class="backtothetop"
+ data-backtothetop-duration="600"
+ data-backtothetop-easing="easeOutQuart"
+ data-backtothetop-fixed-fadeIn="1000"
+ data-backtothetop-fixed-fadeOut="1000"
+ data-backtothetop-fixed-bottom="10"
+ data-backtothetop-fixed-right="20">
+<span class="fa-layers fa-fw">
+<i class="fas fa-circle"></i>
+<i class="fas fa-arrow-circle-up"></i>
+</span></a>
+</div>
+</body>
+</html>

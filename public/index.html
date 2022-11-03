@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>مقدمه - جنگو</title>
+<meta name="description" content="شروع کار با جنگو">
+<meta name="generator" content="Hugo 0.104.3" />
+<link href="https://djangotutorials.ir/index.xml" rel="alternate" type="application/rss+xml">
+<link rel="canonical" href="https://djangotutorials.ir/">
+<link rel="stylesheet" href="https://djangotutorials.ir/css/theme.min.css">
+<link rel="stylesheet" href="https://djangotutorials.ir/css/chroma.min.css">
+<script defer src="https://djangotutorials.ir/js/fontawesome6/all.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js" integrity="sha256-H3cjtrm/ztDeuhCN9I4yh4iN2Ybx/y1RM7rMmAesA0k=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js" integrity="sha256-4XodgW4TwIJuDtf+v6vDJ39FVxI0veC/kSCCmnFp7ck=" crossorigin="anonymous"></script>
+<script src="https://djangotutorials.ir/js/bundle.js"></script><style>
+:root {--custom-background-color: #0C4B33;}
+</style>
+<meta property="og:title" content="مقدمه" />
+<meta property="og:description" content="شروع کار با جنگو" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://djangotutorials.ir/" /><meta property="og:image" content="https://djangotutorials.ir/images/og-image.png"/><meta property="og:site_name" content="Hugo Techdoc Theme" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://djangotutorials.ir/images/og-image.png"/>
+
+<meta name="twitter:title" content="مقدمه"/>
+<meta name="twitter:description" content="شروع کار با جنگو"/>
+<meta itemprop="name" content="مقدمه">
+<meta itemprop="description" content="شروع کار با جنگو"></head>
+<body><div class="container"><header>
+<h1>جنگو</h1><span class="version">ورژن 2.2</span><a href="https://github.com/ItsAminZamani/django-tutorials" class="github"><i class="fab fa-github"></i></a>
+<p class="description">ترجمه‌ای آزاد از اسناد پروژه جنگو</p>
+
+</header>
+<div class="global-menu">
+<nav>
+<ul>
+<li id="home" class=""><a href="/">خانه</a></li>
+<li id="twitter" class="twitter-menu-item"><a href="https://twitter.com/ItsAminZamani">توئیتر</a></li></ul>
+</nav>
+</div>
+
+<div class="content-container">
+<main><h1 id="شروع-کار-با-جنگو-در-مفرحترین-حالت-ممکن">شروع کار با جنگو: در مفرح‌ترین حالت ممکن</h1>
+<h2 id="یک-ترجمه-آزاد-از-داکیومنتهای-رسمی-پروژه-جنگو">یک ترجمه آزاد از داکیومنت‌های رسمی پروژه جنگو</h2>
+<p>سلام. کتاب «راهنمای شروع کار با جنگو» یک ترجمه آزاد از بخش راهنما پروژه جنگو  در این لینک: <a href="https://docs.djangoproject.com/en/2.2/intro/">Getting started</a> هست. آموزش‌های زیادی برای یادگیری فریم‌ورک جنگو در وب فارسی و همچنین وب‌ جهانی، به صورت آنلاین وجود داره، اما به نظر میاد که هم‌چنان اسناد منتشر شده در وب‌سایت رسمی <a href="https://djangoproject.com">پروژه جنگو</a> بهترین منابع یادگیری این فریم‌ورک دوست‌داشتنی هستند.</p>
+<p>در این کتاب، خواسته‌ام همزمان با ترجمه راهنما وب‌سایت رسمی فریم‌ورک جنگو، گپ‌ها و نواقص توضیحی اون رو هم برای تازه‌واردان رفع کنم. به همین خاطر با این‌که اکثریت این آموزش رو ترجمه تشکیل می‌ده، بخش‌هایی هم هستن که مترجم فکر کرده اگر توضیح داده بشن، درک این فریم‌ورک راحت‌تر خواهد بود.</p>
+<h2 id="چرا-این-آموزش-میتونه-مفید-باشه">چرا این آموزش می‌تونه مفید باشه؟</h2>
+<ul>
+<li>کوتاه و خلاصه‌ست و می‌تونه در وقت شما صرفه‌جویی کنه.</li>
+<li>فقط برای خواندن نیست. شما در این آموزش یک پروژه جالب رو از صفر تا صد پیاده‌سازی می‌کنید.</li>
+<li>میزان راندمان شما رو در یادگیری افزایش می‌ده. مفاهیم تا حد امکان ساده‌سازی شدن.</li>
+<li>نقشه راهی از ادامه مسیر حرفه‌ای شما به عنوان توسعه‌دهنده وب به‌تون می‌ده.</li>
+<li>بامزه‌ست و خسته‌کننده نیست.</li>
+</ul>
+<p>این کتاب به صورت آزاد و رایگان منتشر شده؛ مخاطبش علاقمندان به برنامه‌نویسی و توسعه وب هست و آروم گسترش پیدا می‌کنه و افراد زیادی می‌تونن ازش استفاده کنن. حقیقت ماجرا این هست که منابع و آموزش‌های مفید زیادی در حوزه تکنولوژی و مخصوصا توسعه وب وجود داره، که بسیار مفید هستن ولی ترجمه‌ای ازشون صورت نگرفته. شما می‌تونید به مقدار دل‌خواه از این پروژه <a href="https://waalden.ir/donate">حمایت</a> کنید. <a href="https://waalden.ir/donate">حمایت</a> از این پروژه باعث دلگرمی هست و کمک می‌کنه که آموزش‌ها و کتاب‌های بیشتری از این نوع برای کمک به جامعه توسعه‌دهندگان فارسی زبان، منتشر بشه.</p>
+<nav class="pagination"><a class="nav nav-next" href="https://djangotutorials.ir/getting-started/" title="شروع به کار"><i class="fas fa-arrow-left" aria-hidden="true"></i> بعدی - شروع به کار</a>
+</nav><div class="edit-meta">
+آخرین بروزرسانی 3 Aug 2018
+
+
+<br>
+
+<br><a href="https://github.com/ItsAminZamani/django-tutorials/edit/master/_index.md" class="edit-page"><i class="fas fa-pen-square"></i>&nbsp;ویرایش این صفحه در گیت‌هاب</a></div><footer><p class="powered">قدرت گرفته از <a href="https://gohugo.io">Hugo</a>. با قالب <a href="https://themes.gohugo.io/hugo-theme-techdoc/">TechDoc</a>. دیزاین شده توسط <a href="https://github.com/thingsym/hugo-theme-techdoc">Thingsym</a>.</p>
+</footer>
+</main>
+<div class="sidebar">
+
+<nav class="open-menu">
+<ul>
+<li class="active"><a href="https://djangotutorials.ir">مقدمه</a></li>
+
+<li class=""><a href="https://djangotutorials.ir/getting-started/">شروع به کار</a>
+  
+<ul class="sub-menu">
+<li class=""><a href="https://djangotutorials.ir/getting-started/overview/">جنگو در یک نگاه</a></li>
+</ul>
+  
+</li>
+</ul>
+</nav>
+
+
+
+<div class="sidebar-footer"></div>
+</div>
+
+</div><a href="#" id="backtothetop-fixed" class="backtothetop"
+ data-backtothetop-duration="600"
+ data-backtothetop-easing="easeOutQuart"
+ data-backtothetop-fixed-fadeIn="1000"
+ data-backtothetop-fixed-fadeOut="1000"
+ data-backtothetop-fixed-bottom="10"
+ data-backtothetop-fixed-right="20">
+<span class="fa-layers fa-fw">
+<i class="fas fa-circle"></i>
+<i class="fas fa-arrow-circle-up"></i>
+</span></a>
+</div>
+</body>
+</html>
