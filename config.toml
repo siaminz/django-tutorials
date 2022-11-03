@@ -33,7 +33,7 @@ enableMissingTranslationPlaceholders = false
     # Open Graph settings for each page are set on the front matter.
     # See https://gohugo.io/templates/internal/#open-graph
     # See https://gohugo.io/templates/internal/#twitter-cards
-    title = "Hugo Techdoc Theme"
+    title = "شروع کار با جنگو"
     images = ["images/og-image.png"] # Open graph images are placed in `static/images`
 
     # Theme settings section
